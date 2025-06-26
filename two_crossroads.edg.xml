@@ -1,0 +1,41 @@
+<edges>
+    <!-- Roads to/from first crossroad (n1) -->
+    <edge id="e1_in_north" from="n1_in_north" to="n1" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e1_out_north" from="n1" to="n1_in_north" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e1_in_south" from="n1_out_south" to="n1" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e1_out_south" from="n1" to="n1_out_south" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e1_in_west" from="n1_in_west" to="n1" numLanes="1" speed="13.89" color="255,165,0" width="4.5"/>
+    <edge id="e1_out_west" from="n1" to="n1_in_west" numLanes="1" speed="13.89" color="255,165,0" width="4.5"/>
+    <edge id="e1_in_east" from="n2_out_east" to="n1" numLanes="1" speed="13.89" color="255,0,0" width="5.25"/>
+    <edge id="e1_out_east" from="n1" to="n2_out_east" numLanes="1" speed="13.89" color="255,0,0" width="5.25"/>
+
+    <!-- Roads to/from second crossroad (n2) -->
+    <edge id="e2_in_west" from="n1_out_east" to="n2" numLanes="1" speed="13.89" color="255,0,0" width="5.25"/>
+    <edge id="e2_out_west" from="n2" to="n1_out_east" numLanes="1" speed="13.89" color="255,0,0" width="5.25"/>
+    <edge id="e2_in_east" from="n2_out_east" to="n2" numLanes="1" speed="13.89" color="0,255,0" width="4.5"/>
+    <edge id="e2_out_east" from="n2" to="n2_out_east" numLanes="1" speed="13.89" color="0,255,0" width="4.5"/>
+    <edge id="e2_in_north" from="n2_in_north" to="n2" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e2_out_north" from="n2" to="n2_in_north" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e2_in_south" from="n2_out_south" to="n2" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e2_out_south" from="n2" to="n2_out_south" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+
+    <!-- Roads to/from third crossroad (n3) -->
+    <edge id="e3_in_north" from="n1_out_south" to="n3" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e3_out_north" from="n3" to="n1_out_south" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e3_in_south" from="n3_out_south" to="n3" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e3_out_south" from="n3" to="n3_out_south" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e3_in_west" from="n3_in_west" to="n3" numLanes="1" speed="13.89" color="255,165,0" width="4.5"/>
+    <edge id="e3_out_west" from="n3" to="n3_in_west" numLanes="1" speed="13.89" color="255,165,0" width="4.5"/>
+    <edge id="e3_in_east" from="n4_out_east" to="n3" numLanes="1" speed="13.89" color="255,0,0" width="5.25"/>
+    <edge id="e3_out_east" from="n3" to="n4_out_east" numLanes="1" speed="13.89" color="255,0,0" width="5.25"/>
+
+    <!-- Roads to/from fourth crossroad (n4) -->
+    <edge id="e4_in_west" from="n3_out_east" to="n4" numLanes="1" speed="13.89" color="255,0,0" width="5.25"/>
+    <edge id="e4_out_west" from="n4" to="n3_out_east" numLanes="1" speed="13.89" color="255,0,0" width="5.25"/>
+    <edge id="e4_in_east" from="n4_out_east" to="n4" numLanes="1" speed="13.89" color="0,255,0" width="4.5"/>
+    <edge id="e4_out_east" from="n4" to="n4_out_east" numLanes="1" speed="13.89" color="0,255,0" width="4.5"/>
+    <edge id="e4_in_north" from="n2_out_south" to="n4" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e4_out_north" from="n4" to="n2_out_south" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e4_in_south" from="n4_out_south" to="n4" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+    <edge id="e4_out_south" from="n4" to="n4_out_south" numLanes="1" speed="13.89" color="0,128,255" width="4.5"/>
+</edges>
